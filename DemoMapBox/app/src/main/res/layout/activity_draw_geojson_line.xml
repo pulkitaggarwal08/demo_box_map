@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/navigate_map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btn_start_navigation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="@color/mapboxGrayLight"
+        android:enabled="false"
+        android:padding="5px"
+        android:text="Start navigation"
+        android:textColor="@color/mapboxWhite"
+        android:visibility="visible" />
+
+    <!--<com.mapbox.mapboxsdk.views.MapView-->
+    <!--android:id="@+id/mapview"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--mapbox:access_token="pk.eyJ1IjoiYXBwc2RldiIsImEiOiJjamFucnEzZGs0N3BvMzNud3J1ZXFqbTBwIn0.95B_r_uGlx2G6d45Tw8N5Q"/>-->
+
+</RelativeLayout>
